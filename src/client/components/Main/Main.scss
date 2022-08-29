@@ -1,0 +1,22 @@
+.App-main {  
+  padding: 30px 0;
+  background-color: rgba(24, 62, 0, 0.1);
+  }
+
+.futures-list-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 800px;
+}
+
+.futures-list {
+  display: flex;
+  justify-content: center;
+}
+
+.futures-list-description {
+  font-weight: 500;
+  font-size: 20px;
+  letter-spacing: 0.03em;
+}

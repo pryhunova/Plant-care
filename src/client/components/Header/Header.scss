@@ -1,0 +1,45 @@
+.App-header {
+  display: flex;
+  justify-content: center;  
+  padding: 20px 35px;
+  height: 100px;  
+  background-color: #fff;  
+}
+
+.logo-nav {
+  width: 150px;
+}
+
+.btn {
+    font-size: 1.5rem;
+    padding: .75rem 2rem;
+    appearance: none;
+    background-color: #FFFFFF;
+    border-radius: 30em;
+    border-style: none;
+    box-shadow: #ADCFFF 0 -12px 12px inset;
+    color: #2f3535;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: bold;
+    margin: 0;
+    outline: none;
+    transition: all .15s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+.btn:hover {
+  background-color: #88e9ff;
+  box-shadow: #0b8b2d 0 -6px 8px inset;
+  transform: scale(1.125);
+}
+
+.btn:active {
+  transform: scale(1.025);
+}
+
+.logout {
+  display: none;
+  }
