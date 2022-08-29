@@ -7,11 +7,11 @@ export class Header extends Component {
   render() {
     return (
       <header className="App-header">
-      <nav className="logo-nav">
-          <Link to="/">
-            <img src={logo} alt="Logo" />
-          </Link>
-        </nav>
+        <nav className="logo-nav">
+            <Link to="/">
+              <img src={logo} alt="Logo" />
+            </Link>
+          </nav>
       </header>
     );
   }

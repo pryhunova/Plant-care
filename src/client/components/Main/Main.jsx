@@ -8,7 +8,7 @@ import growthOfPlant from './images/woman-taking-care-plant-pot_400х400.jpg'
 export class Main extends Component {
   render() {
     return (
-      <section className="App-main">
+      <main className="App-main">
         <div className="App-container">
           <div className="futures-list">
           <ul>
@@ -35,7 +35,7 @@ export class Main extends Component {
             </ul>
             </div>
         </div>
-      </section>
+      </main>
     );
   }
 }

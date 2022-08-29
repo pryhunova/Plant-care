@@ -27,8 +27,7 @@ const Signup = () => {
       <div className='Auth-container'>
        <div>
           <h2>Sign up for a "Plant Care" account</h2>
-          </div>
-     
+       </div>
       <form onSubmit={handleSubmit}>
         <div >
           <label >Email Address</label>

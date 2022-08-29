@@ -5,12 +5,10 @@ import { Link } from "react-router-dom";
 export class Hero extends Component {
   render() {
     return (
-      <section className="App-hero">
-        <div className="App-container">
+      <section className="App-hero">        
           <Link to="/signin">
           <button className="btn">Get Started</button>
-          </Link>
-        </div>
+          </Link>       
       </section>
     );
   }

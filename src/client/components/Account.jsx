@@ -19,11 +19,10 @@ const Account = () => {
   };
 
   return (
-    <section className="App-main">
-      <div className="App-container">
+    <main className="App-main">
         <div className='Login-container'>
-          <div className=''>
-            <h1>Welcome to "Plant Care" account</h1>
+          <div className='App-User'>
+            <h2>Welcome to "Plant Care" account</h2>
             <p>User Email: {user && user.email}</p>
           </div>
           <div><button className='btn' onClick={handleLogout}>Logout</button></div>
@@ -31,8 +30,7 @@ const Account = () => {
           <div className="plant-container">
             <ImageLoader />
           </div>
-        </div>
-      </section>
+      </main>
     );
 };
 

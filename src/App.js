@@ -11,7 +11,7 @@ import ProtectedRoute from "./client/components/ProtectedRoute";
 
 function App() {
   return (
-    <div>
+    <div className="App-container">
       <AuthContextProvider>
         <Routes>
           <Route path="/" element={<Home />} />

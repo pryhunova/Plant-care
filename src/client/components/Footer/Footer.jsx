@@ -5,9 +5,7 @@ import sprite from './Images/sprite.svg'
 export class Footer extends Component {
   render() {
     return (
-      <footer className="App-footer">
-        <div className="App-container">
-         
+      <footer className="App-footer">       
             <ul className="social-list">
             <li className="social-list-item">
               <a href="https://www.linkedin.com/in/nata-pryhunova/">
@@ -25,10 +23,8 @@ export class Footer extends Component {
                 <a href="https://www.instagram.com/natalie_pryhunova/">
                   <svg className="social-list-icons"><use href={sprite + "#instagram_icon"} /></svg>
             </a></li>
-          </ul>
-         
-        </div>
-      </footer>
+          </ul>  
+       </footer>
     );
   }
 }

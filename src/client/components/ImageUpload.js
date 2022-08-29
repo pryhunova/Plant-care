@@ -26,12 +26,15 @@ export const ImageLoader = () => {
 
   return (
     <div>
-      <input
-        type="file"
-        onChange={(e) => {
-          uploadImage(e);
-        }}
-      />
+      <form action="">
+        <input
+          type="file"
+          multiple
+          onChange={(e) => {
+            uploadImage(e);
+          }}
+        />
+      </form>
       <img className="plant-image" src={baseImage} alt="" />
     </div>
   );

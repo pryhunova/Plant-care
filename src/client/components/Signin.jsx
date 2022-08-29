@@ -23,7 +23,6 @@ const Signin = () => {
   };
 
   return (
-    <div>
     <div className='Auth-container'>
       <div>
         <h2>Sign in to your account</h2>
@@ -47,8 +46,7 @@ const Signin = () => {
             Sign up.
           </Link>
         </p>
-      </div>
-      </div>
+      </div>    
   );
 };
 
